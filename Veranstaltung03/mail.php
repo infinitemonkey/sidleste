@@ -17,14 +17,15 @@ if( isset( $_POST['send'] ) ) {
 		mail ( $m , $subject , $message, $header );
 	}
 }
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Veranstaltung 03 - Mail</title>
     <meta name="viewport" content="width=device-width"/>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="mail.php" method="post">
     	<p>
     	    <input type="text" name="from" placeholder="Sender" value="<?php echo @$_POST['from']; ?>" />
     	</p>
