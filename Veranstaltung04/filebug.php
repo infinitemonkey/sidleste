@@ -70,7 +70,7 @@ if (isset($_POST['send'])) {
             'port' => '465',
             'auth' => true,
             'username' => 'stefan.sidler@gmail.com',
-            'password' => 'icbq1ebtu4ed'
+            'password' => 'XXXXXX'
         ));
 
 
