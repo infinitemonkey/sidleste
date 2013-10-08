@@ -65,15 +65,6 @@ if (isset($_POST['send'])) {
                     'Subject' => $subject
                     );
 
-    $smtp = Mail::factory('smtp', array(
-            'host' => 'ssl://smtp.gmail.com',
-            'port' => '465',
-            'auth' => true,
-            'username' => 'stefan.sidler@gmail.com',
-            'password' => 'icbq1ebtu4ed'
-        ));
-
-
     $crlf = "rn";
 
     $mime = new Mail_mime($crlf);
