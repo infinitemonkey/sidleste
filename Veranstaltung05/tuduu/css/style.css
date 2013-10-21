@@ -1,0 +1,59 @@
+body
+{
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    background-image: url("../img/bg.png");
+}
+
+.content
+{
+    background-color: #ffffff;
+    padding: 15px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+footer 
+{
+    margin-top: 30px;
+    color:White;
+    text-align:center;
+}
+
+.strike 
+{
+	text-decoration: line-through;
+}
+
+.prio-low
+{
+	color: green;
+}
+
+.prio-medium
+{
+	color: orange;
+}
+
+.prio-high
+{
+	color: red;
+}
+
+.table td
+{
+    vertical-align: middle;
+}
+
+.table td.centered
+{
+    text-align: center;
+}
+
+#content
+{
+    //display: none;
+}
