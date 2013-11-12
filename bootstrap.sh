@@ -21,8 +21,8 @@ a2enmod suexec rewrite ssl actions include vhost_alias
 # show php errors
 sudo sed -i '/display_errors = Off/c display_errors = On' /etc/php5/apache2/php.ini
 
-rm -rf /var/www
-ln -fs /vagrant /var/www
+#rm -rf /var/www
+#ln -fs /vagrant /var/www
 
 # from www.thisprogrammingthing.com/2013/getting-started-with-vagrant/
 if [ ! -f /var/log/databasesetup ];
